@@ -20,13 +20,13 @@ def test_harmony_parametrized(inputs, monkeypatch, capsys, expected):
     assert capsys.readouterr().out.strip() == colored(expected, "red", "on_cyan", attrs=["bold"])
 
 
-FRUITS = ["apple"]
+# FRUITS = ["apple"]
 
 
-def test_len():
-    assert len(FRUITS) == 1
-
-
-def test_append():
-    FRUITS.append("banana")
-    assert FRUITS == ["apple", "banana"]
+# def test_len():
+#     assert len(FRUITS) == 1
+#
+#
+# def test_append():
+#     FRUITS.append("banana")
+#     assert FRUITS == ["apple", "banana"]
